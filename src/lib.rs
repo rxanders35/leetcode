@@ -1,2 +1,2 @@
-pub mod lc26_remove_duplicates;
-use lc26_remove_duplicates::*;
+pub mod arrays;
+pub use arrays::lc26_remove_duplicates::*;
