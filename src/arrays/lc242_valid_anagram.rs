@@ -11,8 +11,7 @@ pub fn is_anagram(s: String, t: String) -> bool {
         *tash.entry(i).or_insert(0) += 1;
     }
     if sash == tash {
-        return true; 
+        return true;
     }
     false
 }
-    
